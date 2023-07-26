@@ -1,1 +1,27 @@
-Hello world
+Jamstack, which stands for JavaScript, APIs, and Markup, is a modern web development architecture that emphasizes decoupling the front-end and back-end aspects of a website or web application. When it comes to forms in the Jamstack architecture, there are several approaches to handle form submissions securely and efficiently. Here are some common methods:
+
+1. Static Forms with Form Providers:
+   One way to handle forms in Jamstack is by using form providers. These are third-party services that allow you to create and host forms on their platform. When a form is submitted, the form provider handles the data processing, storage, and notifications. Examples of popular form providers include Netlify Forms, Formspree, and Formcarry.
+
+   The typical workflow involves embedding a form on your static website using HTML, and when a user submits the form, the data is sent to the form provider's API for processing.
+
+2. Serverless Functions:
+   Jamstack websites can use serverless functions to handle form submissions. These functions act as back-end logic that processes form data and performs necessary actions, such as saving data to a database or triggering notifications. Services like AWS Lambda, Azure Functions, and Netlify Functions are commonly used for this purpose.
+
+   When a form is submitted, the front-end sends a request to the serverless function, which then processes the form data and performs the required actions.
+
+3. Headless CMS:
+   Headless Content Management Systems (CMS) can also be used to handle forms in Jamstack websites. These CMS platforms provide an interface to manage content and forms, and they often come with built-in form submission handling. When a form is submitted, the data is stored in the CMS, and you can set up notifications or integrations with other services as needed.
+
+   Examples of headless CMS platforms that offer form handling capabilities include Strapi, Contentful, and Sanity.
+
+4. Roll Your Own Backend:
+   In some cases, you may prefer to set up your custom back-end server to handle form submissions. In this approach, the front-end of your Jamstack website sends form data to your back-end API, which then processes the data and stores it or performs other actions.
+
+   This method provides more flexibility and control over the form handling process, but it requires setting up and maintaining a separate backend infrastructure.
+
+When choosing a method for handling forms in your Jamstack website, consider factors such as data security, ease of implementation, scalability, and your specific project requirements. The choice will depend on your preferences and the specific use case of your website or application.
+
+
+
+<a href="https://fabform.io/for/Jamstack">jamstack forms</a>
